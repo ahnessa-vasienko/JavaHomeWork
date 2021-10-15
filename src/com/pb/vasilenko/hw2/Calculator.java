@@ -26,10 +26,15 @@ public class Calculator {
         break;
         case '/':
             System.out.println(+(x/y));
-        if (y == 0)
-        {System.out.println("на ноль не делить");
+        if (y == 0) {
 
-        break;}
+            System.out.println("на ноль не делить");
+            }
+        break;
+            default: {
+                System.out.println("Неверная операция");
+            }
    }
  }
 }
+
