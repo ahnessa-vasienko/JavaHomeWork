@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e638ca5f-5c38-4d12-bfb6-e4351647b2f4" name="Changes" comment="init commit">
-      <change afterPath="$PROJECT_DIR$/src/hw4/CapitalLetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hw4/Anagram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaHomeWork/com/pb/vasilenko/hw3/Array.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaHomeWork/com/pb/vasilenko/hw3/Array.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/pb/vasilenko/hw3/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pb/vasilenko/hw3/Array.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -42,13 +40,13 @@
       <recent name="com.pb.vasilenko.hw3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CapitalLetter">
-    <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pb.vasilenko.hw3.Array" />
+  <component name="RunManager" selected="Application.Anagram">
+    <configuration name="Anagr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw4.Anagr" />
       <module name="JavaHomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pb.vasilenko.hw3.*" />
+          <option name="PATTERN" value="hw4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -56,8 +54,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Bingo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pb.vasilenko.hw3.Bingo" />
+    <configuration name="Anagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw4.Anagram" />
+      <module name="JavaHomeWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hw4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pb.vasilenko.hw3.Array" />
       <module name="JavaHomeWork" />
       <extension name="coverage">
         <pattern>
@@ -95,26 +106,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pb.vasilenko.hw3.Test" />
-      <module name="JavaHomeWork" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pb.vasilenko.hw3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Anagram" />
+        <item itemvalue="Application.Anagr" />
         <item itemvalue="Application.CapitalLetter" />
         <item itemvalue="Application.HelloWorld" />
         <item itemvalue="Application.Array" />
-        <item itemvalue="Application.Bingo" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635107828208</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="init commit">
+      <created>1635594977837</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1635594977837</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -193,6 +198,11 @@
           <url>file://$PROJECT_DIR$/src/com/pb/vasilenko/hw3/Bingo.java</url>
           <line>7</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hw4/Anagram.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
