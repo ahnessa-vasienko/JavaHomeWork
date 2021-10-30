@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e638ca5f-5c38-4d12-bfb6-e4351647b2f4" name="Changes" comment="init commit">
-      <change afterPath="$PROJECT_DIR$/src/com/pb/vasilenko/hw3/Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hw4/CapitalLetter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaHomeWork/com/pb/vasilenko/hw3/Array.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaHomeWork/com/pb/vasilenko/hw3/Array.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/pb/vasilenko/hw3/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/pb/vasilenko/hw3/Array.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -33,10 +37,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="hw4" />
+      <recent name="com.pb.vasilenko" />
       <recent name="com.pb.vasilenko.hw3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Array">
+  <component name="RunManager" selected="Application.CapitalLetter">
     <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.pb.vasilenko.hw3.Array" />
       <module name="JavaHomeWork" />
@@ -63,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pb.vasilenko.hw2.Calculator" />
+    <configuration name="CapitalLetter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw4.CapitalLetter" />
       <module name="JavaHomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pb.vasilenko.hw2.*" />
+          <option name="PATTERN" value="hw4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Interval" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pb.vasilenko.hw2.Interval" />
+    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pb.vasilenko.hw1.HelloWorld" />
       <module name="JavaHomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pb.vasilenko.hw2.*" />
+          <option name="PATTERN" value="com.pb.vasilenko.hw1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CapitalLetter" />
+        <item itemvalue="Application.HelloWorld" />
         <item itemvalue="Application.Array" />
         <item itemvalue="Application.Bingo" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Interval" />
-        <item itemvalue="Application.Calculator" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +148,21 @@
       <option name="project" value="LOCAL" />
       <updated>1634938550118</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="init commit">
+      <created>1635107774170</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1635107774170</updated>
+    </task>
+    <task id="LOCAL-00005" summary="init commit">
+      <created>1635107828208</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1635107828208</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

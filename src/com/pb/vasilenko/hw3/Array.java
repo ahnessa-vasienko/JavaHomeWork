@@ -33,21 +33,26 @@ public class Array {
             }
 
             boolean isSorted = false;
-            int buf;
+            int temp;
             while (!isSorted) {
                 isSorted = true;
-                for (int i = 0; i < array.length; i++) {
+                for (int i = 0; i < array.length -1; i++) {
                     if (array[i] > array[i + 1]) {
                         isSorted = false;
 
-                        buf = array[i];
+                        temp = array[i];
                         array[i] = array[i + 1];
-                        array[i + 1] = buf;
+                        array[i + 1] = temp;
+
                     }
                 }
 
             }
         }
 
+    }
+
+    private static int[] getArray(int[] array) {
+        return array;
     }
 }
