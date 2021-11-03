@@ -1,47 +1,42 @@
 package hw5;
 
 public class Library {
-    public static void main (String[] args) {
-     Book book1 = new Book();
-     Book book2 = new Book();
-     Book book3 = new Book();
-     book1.setName("Словарь");
-     book2.setName("Энциклопедия");
-     book3.setName("Роман");
+ public static void main(String[] args) {
+  Reader reader1 = new Reader("Петров В.В.", 1, "ИФ", "21.10.1999", "+806711111");
+  Reader reader2 = new Reader("Иванов И.И.", 2, "ИФ", "11.11.1997", "+806722222");
+  Reader reader3 = new Reader("Сидоров А.А.", 3, "ИФ", "05.04.2005", "+806733333");
+  Reader[] readers = {reader1, reader2, reader3};
 
-     book1.setAuthor("Сидоров");
-     book2.setAuthor("Петров");
-     book3.setAuthor("Николаенко");
+  Book book1 = new Book("Словарь", "Иванов", "(1985г.)");
+  Book book2 = new Book("Энциклопедия", "Гройс", "(2021.)");
+  Book book3 = new Book("Автостопом по Галактике", "Дуглас Адамс", "(1979г.)");
+  Book[] books = {book1, book2, book3};
 
-     book1.setDate("1980г");
-     book2.setDate("1984г");
-     book3.setDate("1990г");
+  printReaders(readers);
+  printBooks(books);
 
-     System.out.println(book1.getName());
-     System.out.println(book2.getName());
-     System.out.println(book3.getName());
+  reader1.takeBook(3);
+  reader2.takeBook("Словарь, Иванов", "Энциклопедия, Гройс", "Автостопом по Галактике, Дуглас Адамс" );
+  reader3.takeBook(book1, book2,book3);
 
+  reader1.returnBook(3);
+  reader2.returnBook("Автостопом по Галактике, Дуглас Адамс", "Словарь, Иванов", "Энциклопедия, Гройс");
+  reader3.returnBook(book1,book2,book3);
+ }
 
-     Reader user1 = new Reader();
-     Reader user2 = new Reader();
-     Reader user3 = new Reader();
-     user1.setUser("Петр");
-     user2.setUser("Николай");
-     user3.setUser("Евгений");
-
-     user1.setNumber ("1");
-     user2.setNumber ("2");
-     user3.setNumber ("3");
-
-     System.out.println(user1.getUser());
-     System.out.println(user2.getUser());
-     System.out.println(user3.getUser());
-
-
-
-
-
-
+ private static void printBooks(Book[] books) {
+  System.out.println("Список книг:");
+  for (Book book : books) {
+   System.out.println(book.getInfo());
   }
+  System.out.println();
+ }
 
+ private static void printReaders(Reader[] readers) {
+  System.out.println("Список читателей:");
+  for (Reader reader : readers) {
+   System.out.println( reader.getInfo());
+  }
+  System.out.println();
+ }
 }

@@ -1,10 +1,21 @@
 package hw5;
 
 public class Book {
-    private String name ;
+    private String name;
     private String author;
     private String date;
+    public Book(String name, String author, String date) {
+        this.name = name;
+        this.author = author;
+        this.date = date;
+    }
 
+    public Book() {
+    }
+
+    public String getName() {
+        return name;
+    }
 
     public void setName(String name) {
         this.name = name;
@@ -19,17 +30,14 @@ public class Book {
     }
 
     public String getDate() {
-        return date;
+        return  date;
     }
 
-    public void setDate(String date) {
+    public void setDate ( String date) {
         this.date = date;
     }
 
-    String getName() {
-        return "[Название: " + name + ",автор: " + author + ", дата:" + date +"]";
-
-
-
+    public String getInfo() {
+        return "{" + "name='" + name + '\'' + ", author'" + author + '\'' + ", date'" + date + '\'' + '}';
     }
 }
