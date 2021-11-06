@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e638ca5f-5c38-4d12-bfb6-e4351647b2f4" name="Changes" comment="init commit" />
+    <list default="true" id="e638ca5f-5c38-4d12-bfb6-e4351647b2f4" name="Changes" comment="init commit">
+      <change afterPath="$PROJECT_DIR$/src/hw6/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hw6/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hw6/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hw6/Veterinarian.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hw6/VetСlinic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +44,7 @@
       <recent name="com.pb.vasilenko.hw3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Library">
+  <component name="RunManager" selected="Application.VetСlinic">
     <configuration name="Anagr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hw4.Anagr" />
       <module name="JavaHomeWork" />
@@ -77,19 +84,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.pb.vasilenko.hw1.HelloWorld" />
-      <module name="JavaHomeWork" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.pb.vasilenko.hw1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Library" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hw5.Library" />
       <module name="JavaHomeWork" />
@@ -103,13 +97,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VetСlinic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw6.VetСlinic" />
+      <module name="JavaHomeWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hw6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VetСlinic" />
         <item itemvalue="Application.Library" />
         <item itemvalue="Application.Anagram" />
         <item itemvalue="Application.CapitalLetter" />
         <item itemvalue="Application.Anagr" />
-        <item itemvalue="Application.HelloWorld" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +199,21 @@
       <option name="project" value="LOCAL" />
       <updated>1635969611685</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="init commit">
+      <created>1635969799567</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1635969799567</updated>
+    </task>
+    <task id="LOCAL-00012" summary="init commit">
+      <created>1635969861030</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1635969861030</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
