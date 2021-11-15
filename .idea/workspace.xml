@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e638ca5f-5c38-4d12-bfb6-e4351647b2f4" name="Changes" comment="init commit">
-      <change afterPath="$PROJECT_DIR$/src/hw6/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hw6/Horse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hw6/Veterinarian.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hw6/VetСlinic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hw7/Atelier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hw7/Clothes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hw7/Pants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hw7/Skirt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hw7/Tie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hw7/Tshirt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hw6/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw6/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hw6/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw6/Cat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +45,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -60,6 +63,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="hw4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Atelier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw7.Atelier" />
+      <module name="JavaHomeWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hw7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,10 +138,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.VetСlinic" />
+        <item itemvalue="Application.Atelier" />
         <item itemvalue="Application.Library" />
         <item itemvalue="Application.VetСlinic" />
         <item itemvalue="Application.Anagram" />
-        <item itemvalue="Application.CapitalLetter" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636235548828</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="init commit">
+      <created>1636400005428</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1636400005428</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -265,6 +288,11 @@
           <url>file://$PROJECT_DIR$/src/hw4/Anagram.java</url>
           <line>5</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/hw7/Atelier.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
