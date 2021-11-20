@@ -1,109 +1,36 @@
 package hw7;
 
 public class Atelier {
-    public static void main(String[] args) {
-        Tshirt tshirt = new Tshirt(Clothes.Size.XS, 100, "red") {
-            @Override
-            protected void dressMan() {
 
-            }
+    enum Size {
+        XXS("Детский размер", 32),
+        XS( 34),
+        S( 36),
+        M( 38),
+        L( 40);
 
-            @Override
-            protected void dressWomen() {
+        private String description;
+        private int euroSize;
 
-            }
+        Size(String description, int euroSize) {
+            this.description = description;
+            this.euroSize = euroSize;
+        }
 
-            @Override
-            public String getSize() {
-                return null;
-            }
+        Size(int euroSize) {
+            this.description = "Взрослый размер";
+            this.euroSize = euroSize;
+        }
 
-            @Override
-            public String getPrice() {
-                return null;
-            }
-        };
-        Pants pants = new Pants(Clothes.Size.S, 200, "blue") {
-            @Override
-            protected void dressMan() {
+        public String getDescription() {
+            return description;
+        }
 
-            }
-
-            @Override
-            protected void dressWomen() {
-
-            }
-
-            @Override
-            public String getSize() {
-                return null;
-            }
-
-            @Override
-            public String getPrice() {
-                return null;
-            }
-        };
-        Tie tie = new Tie(Clothes.Size.M, 150, "black") {
-            @Override
-            protected void dressMan() {
-
-            }
-
-            @Override
-            protected void dressWomen() {
-
-            }
-
-            @Override
-            public String getSize() {
-                return null;
-            }
-
-            @Override
-            public String getPrice() {
-                return null;
-            }
-        };
-        Skirt skirt = new Skirt(Clothes.Size.XS, 200, "yelow") {
-
-
-            @Override
-            protected void dressMan() {
-
-            }
-
-            @Override
-            protected void dressWomen() {
-
-            }
-
-            @Override
-            public String getSize() {
-                return null;
-            }
-
-            @Override
-            public String getPrice() {
-                return null;
-            }
-        };
-
-         Clothes[] clothes = {new tshirt, new pants, new skirt, new tie};
-        public static void dressMan (Clothes);
-                System.out.println("Мужская одежда");
-        for (Clothes clothe : clothes) {
-            if (clothe instanceof Tshirt) {
-                System.out.println("Футболка, размера - " + tshirt.getSize() + "цвет -" + tshirt.getColor() + "цена-" + tshirt.getPrice());
-            }
+        public int getEuroSize() {
+            return euroSize;
         }
     }
 
 
-    }
 
-
-
-
-
-
+}

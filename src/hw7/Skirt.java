@@ -1,20 +1,12 @@
 package hw7;
 
-public abstract class Skirt extends Clothes {
-    public Skirt(Size xs, int i, String yelow) {
-
+    class Skirt extends Clothes implements WomenClothes {
+    public Skirt( Atelier.Size M, float price, String color) {
+        super(Atelier.Size.M, price, color);
     }
 
-    interface WomenClothes {
-        static void dressWomen(Clothes[] clothes) {
-            System.out.println("Женская одежда:");
-            for (Clothes clothe : clothes) {
-                if (clothe instanceof Skirt) {
-                    clothe.dressWomen();
-                }
-            }
-        }
+    @Override
+    public void dressWomen() {
+        System.out.println("женщина одевает юбку " + getInfo());
     }
 }
-
-

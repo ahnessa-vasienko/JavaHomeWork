@@ -1,20 +1,18 @@
 package hw7;
 
-
-
-public abstract class Tshirt extends Clothes {
-
-    public Tshirt(Size xs, int i, String red) {
+    class Tshirt extends Clothes implements ManClothes, WomenClothes {
+    public Tshirt(Atelier.Size s, float price, String color) {
+        super(Atelier.Size.S, price, color);
     }
 
-    interface ManClothes {
-        static void dressMan(Clothes[] clothes) {
-            System.out.println("Мужская одежда:");
-            for (Clothes clothe : clothes) {
-                if (clothe instanceof Pants || clothe instanceof Tshirt || clothe instanceof Pants) {
-                    clothe.dressMan();
-                }
-            }
-        }
+
+        @Override
+    public void dressMan() {
+        System.out.println("мужчина одевает футболку " + getInfo());
+    }
+
+    @Override
+    public void dressWomen() {
+        System.out.println("женщина одевает футболку " + getInfo());
     }
 }
