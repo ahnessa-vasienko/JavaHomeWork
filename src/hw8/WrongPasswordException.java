@@ -1,4 +1,4 @@
 package hw8;
 
-public class WrongPasswordException extends Exception {
+public class WrongPasswordException extends Throwable {
 }

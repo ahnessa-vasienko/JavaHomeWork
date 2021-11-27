@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e638ca5f-5c38-4d12-bfb6-e4351647b2f4" name="Changes" comment="init commit">
+      <change afterPath="$PROJECT_DIR$/src/hw8/WrongConfirmPassword.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hw8/Auth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw8/Auth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hw8/OnlineShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw8/OnlineShop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hw8/WrongPasswordException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hw8/WrongPasswordException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +57,7 @@
       <recent name="com.pb.vasilenko.hw3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.OnlineShop">
     <configuration name="Atelier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hw7.Atelier" />
       <module name="JavaHomeWork" />
@@ -67,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Library" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hw5.Library" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw7.Main" />
       <module name="JavaHomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hw5.*" />
+          <option name="PATTERN" value="hw7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hw7.Main" />
+    <configuration name="OnlineShop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw8.OnlineShop" />
       <module name="JavaHomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hw7.*" />
+          <option name="PATTERN" value="hw8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OnlineShop" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.main" />
         <item itemvalue="Application.VetСlinic" />
         <item itemvalue="Application.Atelier" />
-        <item itemvalue="Application.Library" />
       </list>
     </recent_temporary>
   </component>
@@ -270,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637444633439</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="init commit">
+      <created>1637700936845</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1637700936845</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
